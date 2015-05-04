@@ -1,13 +1,9 @@
 <template name="basicLayout">
-    <div id="main">
-        <header>
-            {{> header}}
-        </header>
+  <div class="ui visible inverted left vertical overlay sidebar menu">
+    {{> sidebar}}
+  </div>
 
-            {{> yield}}
-            {{! Also a sidebar! }}
-        <footer>
-            {{> footer}}
-        </footer>
-    </div>
+  <div class="main pusher">
+    {{> yield}}
+  </div>
 </template>

@@ -23,6 +23,7 @@ callback-hook@1.0.3
 check@1.0.5
 chuangbo:cookie@1.1.0
 coffeescript@1.0.6
+copleykj:jquery-autosize@1.17.8
 dburles:collection-helpers@1.0.3
 ddp@1.1.0
 deps@1.0.7
@@ -61,6 +62,8 @@ meteorhacks:picker@1.0.2
 mike:mocha@0.5.4
 minifiers@1.1.5
 minimongo@1.0.8
+mizzao:timesync@0.3.1
+mizzao:user-status@0.6.4
 mobile-status-bar@1.0.3
 mongo@1.1.0
 natestrauser:animate-css@3.2.6
@@ -82,7 +85,7 @@ routepolicy@1.0.5
 sanjo:long-running-child-process@1.0.3
 sanjo:meteor-files-helpers@1.1.0_4
 sanjo:meteor-version@1.0.0
-semantic:ui-css@1.11.6
+semantic:ui-css@1.12.1
 service-configuration@1.0.4
 session@1.1.0
 sha@1.0.3
@@ -94,9 +97,10 @@ templating@1.1.1
 tracker@1.0.7
 ui@1.0.6
 underscore@1.0.3
+underscorestring:underscore.string@3.0.3
 url@1.0.4
-useraccounts:core@1.8.1
-useraccounts:semantic-ui@1.8.1
+useraccounts:core@1.9.1
+useraccounts:semantic-ui@1.9.1
 velocity:chokidar@0.12.6_1
 velocity:core@0.6.1
 velocity:html-reporter@0.5.3
@@ -104,5 +108,4 @@ velocity:meteor-internals@1.1.0_7
 velocity:shim@0.1.0
 webapp@1.2.0
 webapp-hashing@1.0.3
-wizonesolutions:underscore-string@1.0.0
-zimme:iron-router-active@1.0.1
+zimme:iron-router-active@1.0.4

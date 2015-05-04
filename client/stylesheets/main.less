@@ -7,45 +7,44 @@
     Main Content
    ------------------- */
 
-body, #main {
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    color: @primaryFontColor;
-    font-family: 'Fauna One', serif;
+
+.main {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+
+  padding-left: 260px;
 }
 
-a {
-    color: inherit;
-    transition: 0.3s color;
+.accounts {
+  padding-top: 200px;
+}
 
-    &:hover {
-        color: @primaryLinkHoverColor;
+.sidebar {
+  .item.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .messages-list {
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+  .messages-entry {
+    padding: 20px;
+    .messages-entry-textarea {
+      height: 3em;
+      min-height: 3em;
+      resize: none;
     }
-}
-
-.icon {
-    &.orange {
-        color: @html5Orange;
-    }
-}
-
-.ui.header {
-    font-family: 'Glegoo', serif;
-}
-
-.site-wrapper {
-    margin: 0 auto;
-    max-width: @largeDesktopWidth;
-}
-
-/* -------------------
-    Footer
-   ------------------- */
-.padding-wrapper.footer {
-    .border-radius(0px);
-
-    a:hover {
-        color: @secondaryLinkHoverColor;
-    }
+  }
 }

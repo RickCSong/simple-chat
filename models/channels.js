@@ -1,7 +1,6 @@
-// { "path" : "models/__modelName__.js" }
-__className__ = new Mongo.Collection('__modelName__');
+Channel = new Mongo.Collection('channels');
 
-__className__.attachSchema(
+Channel.attachSchema(
   new SimpleSchema({
     title: {
       type: String
@@ -19,7 +18,7 @@ __className__.attachSchema(
 // Collection2 already does schema checking
 // Add custom permission rules if needed
 if (Meteor.isServer) {
-  __className__.allow({
+  Channel.allow({
     insert : function () {
       return true;
     },
